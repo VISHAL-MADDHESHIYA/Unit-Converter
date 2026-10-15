@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header>
+            <h1>Unit Converter</h1>
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+        </header>
+
+        <!-- Category Selection -->
+        <div class="category-tabs">
+            <button class="tab active" data-category="length">Length</button>
+            <button class="tab" data-category="weight">Weight</button>
+            <button class="tab" data-category="temperature">Temperature</button>
+        </div>
+
+        <!-- Converter Card -->
+        <main class="converter-card">
+            <div class="input-group">
+                <label for="from-value">From</label>
+                <div class="input-wrapper">
+                    <input type="number" id="from-value" placeholder="Enter value" value="1">
+                    <select id="from-unit"></select>
+                </div>
+            </div>
+
+            <!-- Swap Button -->
+            <div class="swap-container">
+                <button id="swap-btn" aria-label="Swap Units">⇅</button>
+            </div>
+
+            <div class="input-group">
+                <label for="to-value">To</label>
+                <div class="input-wrapper">
+                    <input type="number" id="to-value" placeholder="Result" readonly>
+                    <select id="to-unit"></select>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button id="copy-btn" class="btn-secondary">Copy Result</button>
+                <button id="clear-btn" class="btn-secondary">Clear</button>
+            </div>
+        </main>
+
+        <!-- History Section -->
+        <section class="history-section">
+            <h3>Recent Conversions</h3>
+            <ul id="history-list"></ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
