@@ -2,10 +2,8 @@
 A production-grade, highly scalable Unit Converter built with **Pure Vanilla JavaScript, HTML5, and CSS3**. This project goes beyond basic `if/else` conversions by implementing a **Base Unit Architecture**, dynamic UI generation, and modern UX features like Dark Mode and Live Conversion.
 
 ## 🔗 Project Links
-*   **Live Demo:** [Insert your Live Demo Link here (e.g., GitHub Pages / Vercel)]
-*   **GitHub Repository:** [Insert your GitHub Repo Link here]
-*   **LinkedIn Post:** [Insert your LinkedIn Post Link here]
-
+*   **Live Demo:** (https://vishal-maddheshiya.github.io/Unit-Converter/)
+*   **GitHub Repository:** (https://github.com/VISHAL-MADDHESHIYA/Unit-Converter/)
 ---
 
 ## ✨ Key Features
